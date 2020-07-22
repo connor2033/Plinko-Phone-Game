@@ -1,0 +1,41 @@
+    //8 rows starting at y=70 and add 50 each row
+
+        for (int h = 0; h < 4; h++){
+        pins.push_back(physics::createCircle(world, 80 + 53*h, 70, 3, b2_staticBody));
+        physics::setBlockColor(pins.back(),Color(226, 24, 24));
+        }
+
+        for (int h = 0; h < 5; h++){
+        pins.push_back(physics::createCircle(world, 53 + 53*h, 120, 3, b2_staticBody));
+        physics::setBlockColor(pins.back(),Color(226, 67, 23));
+        }
+
+        for (int h = 0; h < 6; h++){
+        pins.push_back(physics::createCircle(world, 27 + 53*h, 170, 3, b2_staticBody));
+        physics::setBlockColor(pins.back(),Color(226, 144, 23));
+        }
+
+        for (int h = 0; h < 5; h++){
+        pins.push_back(physics::createCircle(world, 53 + 53*h, 220, 3, b2_staticBody));
+        physics::setBlockColor(pins.back(),Color(226, 198, 23));
+        }
+
+        for (int h = 0; h < 6; h++){
+        pins.push_back(physics::createCircle(world, 27 + 53*h, 270, 3, b2_staticBody));
+        physics::setBlockColor(pins.back(),Color(186, 226, 9));
+        }
+
+        for (int h = 0; h < 5; h++){
+        pins.push_back(physics::createCircle(world, 53 + 53*h, 320, 3, b2_staticBody));
+        physics::setBlockColor(pins.back(),Color(122, 226, 10));
+        }
+
+        for (int h = 0; h < 6; h++){
+        pins.push_back(physics::createCircle(world, 27 + 53*h, 370, 3, b2_staticBody));
+        physics::setBlockColor(pins.back(),Color(13, 224, 34));
+        }
+
+        for (int h = 0; h < 5; h++){
+        pins.push_back(physics::createCircle(world, 53 + 53*h, 420, 3, b2_staticBody));
+        physics::setBlockColor(pins.back(),Color(29, 226, 157));
+        }
